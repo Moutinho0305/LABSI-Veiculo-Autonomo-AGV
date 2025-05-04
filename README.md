@@ -1,2 +1,41 @@
 # LABSI-Veiculo-Autonomo-AGV
-Desenvolvimento de um AGV (Automated Guided Vehicle) autónomo, com capacidade para transportar uma carga do ponto A para o ponto B, realizar o despejo automático no destino e regressar ao ponto de origem. O sistema inclui a construção de um chassi com rodas direcionais acionadas por motor DC, e utiliza navegação por seguimento de linha com base no Kitronik. Foi integrado um sensor de peso para monitorização da carga, bem como um painel LCD/LED/OLED para exibição de dados como velocidade instantânea, peso, hora e data. O AGV conta ainda com um botão de alimentação (liga/desliga), uma fonte de energia baseada em baterias ou pilhas, e um atuador linear que permite inclinar a plataforma de transporte para facilitar o descarregamento do material. Foi também explorada a implementação de mapeamento do ambiente e planeamento de trajetória para melhorar a autonomia e adaptabilidade do sistema.
+Este projeto consiste no desenvolvimento de um veículo guiado automaticamente (AGV), capaz de transportar uma carga de forma autónoma entre dois pontos (A → B), com descarregamento automático e monitorização em tempo real.
+
+✨ Funcionalidades Principais
+Transporte autónomo de cargas entre pontos definidos.
+
+Descarregamento automático da carga no ponto B.
+
+🔧 Implementação Técnica
+1. Estrutura Mecânica
+Chassi desenvolvido à medida.
+
+Rodas direcionais acopladas a motor DC.
+
+Atuação de um atuador linear para inclinar a superfície de carga e facilitar o escoamento do material transportado.
+
+2. Sistema de Navegação
+Navegação baseada em seguimento de linha, utilizando o sistema Kitronik.
+
+Exploração inicial de mapeamento de ambiente e planeamento de trajetória para futura evolução do projeto.
+
+3. Sensores e Eletrónica
+Sensor de peso para leitura da carga transportada.
+
+Botão de alimentação (liga/desliga).
+
+Fonte de energia composta por baterias ou pilhas recarregáveis.
+
+4. Interface de Utilizador
+Integração de um ecrã LCD / LED / OLED para exibir:
+
+Velocidade instantânea
+
+Peso atual
+
+Hora e data
+
+🚀 Futuras Melhorias
+Implementação total de um sistema de mapeamento e navegação por trajetória inteligente.
+
+Comunicação com estação base para controlo remoto ou monitorização remota.
