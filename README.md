@@ -20,7 +20,7 @@ Este projeto consiste no desenvolvimento de um veículo guiado automaticamente (
     - Botão de alimentação (liga/desliga).
     - Fonte de energia composta por baterias ou pilhas recarregáveis.
 
-  4. Interface de Utilizador:
+  5. Interface de Utilizador:
     - Integração de um ecrã LCD / LED / OLED para exibir:
     - Velocidade instantânea
     - Peso atual
